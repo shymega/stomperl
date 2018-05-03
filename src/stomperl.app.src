@@ -1,15 +1,15 @@
 {application, stomperl,
- [{description, "An OTP application"},
+ [{description, "A STOMP client for Erlang"},
   {vsn, "0.1.0"},
-  {registered, []},
+  {registered, [stomperl]},
   {mod, { stomperl_app, []}},
   {applications,
    [kernel,
     stdlib
    ]},
   {env,[]},
-  {modules, []},
-
+  {modules, [stomperl_sup,
+             stomperl_frame]},
   {maintainers, []},
   {licenses, []},
   {links, []}

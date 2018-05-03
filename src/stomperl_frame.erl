@@ -1,4 +1,4 @@
--module(stomperl_utils).
+-module(stomperl_frame).
 -author("Dom Rodriguez <shymega@shymega.org.uk").
 
 -export([new_frame/2]).
