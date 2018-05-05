@@ -21,6 +21,7 @@ collate_opts([]) ->
 
 -spec new_frame(string(), list()) -> list().
 new_frame(CMD, Opts) ->
+  lager:debug("Creating a STOMP frame on request, cmd: ~p", [CMD]),
   lists:append([CMD,
                 collate_opts(Opts),
                 "\n\n"],
