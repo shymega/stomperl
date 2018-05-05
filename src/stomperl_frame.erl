@@ -25,3 +25,4 @@ new_frame(CMD, Opts) ->
                 collate_opts(Opts),
                 "\n\n"],
                [0]).
+
