@@ -5,5 +5,4 @@
          body :: binary()}).
 
 -define(DEFAULT_STOMP_VERSION, 1.2).
-
-% parser_state
+-define(KV_RE,"^([a-zA-Z0-9\-_]*):(.*)$").
