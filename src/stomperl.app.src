@@ -2,7 +2,7 @@
  [{description, "Lightweight Erlang STOMP client"},
   {vsn, "0.1.0"},
   {registered, [stomperl]},
-  {mod, { stomperl_app, []}},
+  {mod, {stomperl_app,[]}},
   {applications,
    [kernel,
     stdlib,
