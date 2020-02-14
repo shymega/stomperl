@@ -13,9 +13,6 @@ You will have to build from Git for now. Once the library is working
 on multiple STOMP servers, and can receive and send STOMP frames, then
 a release will be made, and published to `hex.pm` for distribution.
 
-In time, an Elixir library will also be developed to provide a wrapper
-of the Erlang library.
-
 Licensing
 ---------
 
